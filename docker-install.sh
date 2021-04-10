@@ -20,6 +20,6 @@ sudo add-apt-repository \
 
 sudo apt-get update
 
-sudo apt-get install -y docker-ce=5:18.09.5~3-0~ubuntu-bionic docker-ce-cli=5:18.09.5~3-0~ubuntu-bionic containerd.io
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 sudo usermod -a -G docker cloud_user
